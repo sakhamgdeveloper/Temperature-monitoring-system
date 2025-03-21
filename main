@@ -1,0 +1,16 @@
+def temperature_monitor(temp):
+  if(temp < 20):
+    print(f"The temperature is {temp}℃ .Too low 🥶🥶🥶🥶")
+  elif(temp> 32):
+    print(f"The temperature is {temp}℃. Too High. 🔥🔥🔥")
+  else:
+    print(f"The temperature is {temp}℃. Perfect 👌👌")
+
+
+
+
+
+while(1):
+ temp = float(input("Input temperature is(in ℃) : "))   # here temperature can be taken from a sensor.
+ 
+ temperature_monitor(temp)
